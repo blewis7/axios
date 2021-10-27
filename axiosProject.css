@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#form-items {
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.search {
+    margin-right: 5px;
+}
+
+.button {
+    color: white;
+}
+
+.to-search {
+    background-color: grey;
+}
+
+.to-search:hover {
+    border: solid blue 2px;
+    background-color: darkslategray
+}
+
+.remove {
+    background-color: orange;
+}
+
+.remove:hover {
+    background-color: darkorange;
+    border: solid white 2px;
+}
+
+.gif-container {
+    display: grid;
+    grid-template-rows: repeat(3, 200px);
+}
